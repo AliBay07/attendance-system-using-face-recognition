@@ -1,0 +1,2 @@
+cd {path_to_folder}\CheckInOutWebApp
+streamlit run app.py

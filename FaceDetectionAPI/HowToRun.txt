@@ -1,3 +1,2 @@
-cd C:\Users\user\Desktop\USJ\Annee 3\Semester II\fyp\FaceDetectionAPI
-uvicorn main:app --reload
+cd {path_to_folder}\FaceDetectionAPI
 uvicorn main:app --reload --port 1234

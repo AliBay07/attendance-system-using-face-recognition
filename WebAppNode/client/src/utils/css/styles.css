@@ -1,0 +1,314 @@
+
+html{
+  font-family:'Times New Roman', serif;
+  background-color: #F0F4FB;
+}
+.sidebar-component-title{
+    font-size: 13px;
+    font-weight: bold;
+    font-family:'Times New Roman', serif;
+    color: #012970;
+}
+
+.sidebar-component-subtitle{
+    font-family: 'Times New Roman', serif;
+    color: #012970;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family:'Times New Roman', serif;
+  font-size: 15px;
+
+} 
+.text-titles-all {
+  color: #2939c5;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.input-fields{
+  width: 50%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+input:focus {
+  outline: 0;
+  border-color: #03137e;
+}
+input:focus + .input-icon i {
+  color: #03137e;
+}
+input:focus + .input-icon:after {
+  border-right-color: #03137e;
+}
+
+input:checked 
+select:focus,
+select:active {
+  background-color: #03137e;
+  color: #fff;
+  border-color: #03137e;
+}
+
+
+.input-group {
+  margin-bottom: 1em;
+  zoom: 1;
+}
+.input-group:before,
+.input-group:after {
+  content: "";
+  display: table;
+}
+.input-group:after {
+  clear: both;
+}
+
+.input-group-icon input {
+  padding-left: 4.4em;
+}
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+.col-half {
+  padding-right: 10px;
+  float: left;
+  width: 50%;
+}
+.submit-btn{
+  display: block;
+  width: 50%; 
+  max-width: 100%; 
+  /* margin: 0 auto; */
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #03137e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container label {
+  margin-right: 10px; 
+  margin-top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.info-text {
+  /* font-weight: bold; */
+  color: #03137e;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  size: 16px;
+  margin-bottom: 5px;
+}
+
+.update-btn{
+  padding: 10px 20px;
+  background-color: #03137e;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.custom-header {
+  background-color: #F0F4FB;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: black;
+}
+
+.custom-cell {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#outlined-select{
+  flex: 1 1 7.2em;
+  width: 7.2em;
+  max-width: 50%;
+  background-color: white;
+}
+#outlined-search{
+  flex: 1 1 100%;
+  max-width: 100%;
+background-color: white;
+} 
+
+#outlined-search-em {
+  flex: 1 1 100%;
+  max-width: 100%;
+  background-color: white;
+
+}
+#outlined-select-em {
+  flex: 1 1 11em;
+  width: 11em;
+  max-width: 50%;
+  background-color: white;
+
+}
+.bg-white{
+  background-color: white;
+  width: 98%;
+}
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  gap: 6px;
+}
+
+.wrapper{
+  height: 100vh;
+}
+.login{
+  width: 300px;
+  height: min-content;
+  border-radius:5px;
+  padding: 20px;
+  color: black;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.bg-light-blue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+   height: 100vh;
+   background-color: #F0F4FB;
+}
+.bg-blue{
+  background-color: #F0F4FB;
+
+}
+.welcome-text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 50px;
+
+}
+.welcome-text-style-blue{
+  font-size: 2em; 
+  color: #03137e;
+  font-weight: bold;
+}
+.welcome-text-style-black{
+font-size: 2em; 
+ color: black;
+  font-weight: bold;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.text-login{
+  color: grey;
+}
+.submit-btn-login{
+  width: 100%; 
+  max-width: 100%; 
+  /* margin: 0 auto; */
+  margin-top: 15px;
+  padding: 10px 30px;
+  background-color: #03137e;
+}
+.outlined-search-login{
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+  .white-box {
+    width: 250px;
+    height: 130px;
+    margin-top: 30px;
+    margin-right: auto;
+    background:#fff;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+  }
+  
+  .icon {
+    font-size: 60px;
+  }
+  
+ 
+  
+  .text-box{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+@media only screen and (min-width: 600px) {
+  #outlined-search-em {
+    flex: 1 1 auto;
+    max-width: 14em;
+  }
+
+  #outlined-select-em {
+    flex: 1 1 auto;
+    max-width: 11em;
+  }
+  
+  #outlined-select{
+    flex: 1 1 auto;
+    max-width: 7.2em; 
+   }
+  #outlined-search {
+    flex: 1 1 auto;
+    max-width: 7.8em;  
+  }
+} 
+

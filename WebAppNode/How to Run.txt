@@ -1,0 +1,11 @@
+Server:
+
+cd {path_to_folder}\server
+npm i (if first time)
+npm start
+
+Client:
+
+cd {path_to_folder}\client
+npm i (if first time)
+npm start
